@@ -1,5 +1,6 @@
 package echo
 
-func echo(in string) string {
-	return in
+//Echo - echo input
+func Echo(recv string) string {
+	return recv
 }

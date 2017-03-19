@@ -11,9 +11,13 @@ cd src/ubinix.com/warun/echo
 govendor init
 govendor add github.com/ant0ine/go-json-rest/rest
 
-create fn-echo() on ubinix.com/warun/echo
+#create fn-echo() on ubinix.com/warun/echo
 
 govendor install +local
+
+#create test-echo() on package
+
+govendor test +local
 ```
 
 Inspired: https://gocodecloud.com/blog/2016/03/29/go-vendoring-beginner-tutorial/
