@@ -36,7 +36,11 @@ echoServer
 govendor init
 govendor add github.com/ant0ine/go-json-rest/rest
 
+# create Helloworld JSON with "go-json-rest" for run!
 
 ```
 
-Inspired: https://gocodecloud.com/blog/2016/03/29/go-vendoring-beginner-tutorial/
+Inspired: 
+* https://gocodecloud.com/blog/2016/03/29/go-vendoring-beginner-tutorial/
+* https://github.com/github/gitignore/blob/master/Go.gitignore
+* https://github.com/ubinix-warun/prj-golang-template
