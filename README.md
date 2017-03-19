@@ -52,6 +52,12 @@ PORT=8080 heroku local
 
 # edit .env and Procfile for new main()!
 
+heroku create
+heroku git:remote -a __app_name__
+
+# create app.json and push vendor src to git!
+
+
 ```
 
 
