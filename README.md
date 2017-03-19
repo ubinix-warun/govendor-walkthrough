@@ -45,7 +45,7 @@ open 127.0.0.1:8080
 
 ```
 
-# BONUS! heroku
+# ~~~BONUS! heroku~~~
 ```bash
 
 # edit .env and Procfile for new main()!
@@ -61,6 +61,7 @@ heroku git:remote -a __app_name__
 
 govendor fetch github.com/ant0ine/go-json-rest/rest
 
+# !!! project struct. can't use to push
 
 ```
 
