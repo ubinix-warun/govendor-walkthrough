@@ -1,6 +1,13 @@
 {
 	"comment": "",
 	"ignore": "test",
-	"package": [],
+	"package": [
+		{
+			"checksumSHA1": "KMTpIQS+cdSCzMN5TC6GfNLTv0o=",
+			"path": "github.com/ant0ine/go-json-rest/rest",
+			"revision": "4602b00d2caab423578a3094c68137dcc1eb2051",
+			"revisionTime": "2017-02-19T23:16:50Z"
+		}
+	],
 	"rootPath": "ubinix.com/warun/echo"
 }
