@@ -5,7 +5,7 @@ import (
 	"net/http"
 
 	"github.com/ant0ine/go-json-rest/rest"
-	"ubinix.com/warun/echo"
+	"ubinix.com/warun/echoServer/echo"
 )
 
 func main() {

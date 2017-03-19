@@ -38,6 +38,11 @@ govendor add github.com/ant0ine/go-json-rest/rest
 
 # create Helloworld JSON with "go-json-rest" for run!
 
+govendor install +local
+echoServer
+
+open 127.0.0.1:8080
+
 ```
 
 Inspired: 
