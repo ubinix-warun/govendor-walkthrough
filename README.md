@@ -63,6 +63,9 @@ govendor fetch github.com/ant0ine/go-json-rest/rest
 
 # !!! project struct. can't use to push
 
+# minimal project for heroku (golang)
+https://github.com/ubinix-warun/heroku-golang-echoServer
+
 ```
 
 
