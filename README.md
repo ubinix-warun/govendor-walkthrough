@@ -45,6 +45,16 @@ open 127.0.0.1:8080
 
 ```
 
+# BONUS! heroku
+```bash
+
+PORT=8080 heroku local
+
+# edit .env and Procfile for new main()!
+
+```
+
+
 Inspired: 
 * https://gocodecloud.com/blog/2016/03/29/go-vendoring-beginner-tutorial/
 * https://github.com/github/gitignore/blob/master/Go.gitignore
