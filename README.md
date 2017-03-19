@@ -48,14 +48,18 @@ open 127.0.0.1:8080
 # BONUS! heroku
 ```bash
 
+# edit .env and Procfile for new main()!
+
 PORT=8080 heroku local
 
-# edit .env and Procfile for new main()!
+# create app.json and push vendor src to git!
 
 heroku create
 heroku git:remote -a __app_name__
 
-# create app.json and push vendor src to git!
+# FIX dep.!
+
+govendor fetch github.com/ant0ine/go-json-rest/rest
 
 
 ```
